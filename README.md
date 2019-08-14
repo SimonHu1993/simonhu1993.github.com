@@ -8,7 +8,7 @@
 
 [https://simonhu1993.github.io/mind_map/Redis.html](https://simonhu1993.github.io/mind_map/Redis.html)
 
-![](https://github.com/SimonHu1993/study_mind_map/blob/master/Redis.png)
+![](https://simonhu1993.github.io/mind_map/Redis.png)
 
 
 # Docker #
@@ -16,7 +16,7 @@
 
 [https://simonhu1993.github.io/mind_map/Docker.html](https://simonhu1993.github.io/mind_map/Docker.html)
 
-![docker](https://github.com/SimonHu1993/study_mind_map/blob/master/Docker.png)
+![docker](https://simonhu1993.github.io/mind_map/Docker.png)
  
 
 # SpringCloud #
@@ -24,7 +24,7 @@
 
 [https://simonhu1993.github.io/mind_map/SpringCloud.html](https://simonhu1993.github.io/mind_map/SpringCloud.html)
 
-![](https://github.com/SimonHu1993/study_mind_map/blob/master/SpringCloud.png)
+![](https://simonhu1993.github.io/mind_map/SpringCloud.png)
 
 # Interview2019 #
 [https://simonhu1993.github.io/mind_map/interview2019.html](https://simonhu1993.github.io/mind_map/interview2019.html)

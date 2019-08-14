@@ -29,11 +29,11 @@
 # Interview2019 #
 [https://simonhu1993.github.io/mind_map/interview2019.html](https://simonhu1993.github.io/mind_map/interview2019.html)
 
-![](https://github.com/SimonHu1993/study_mind_map/blob/master/interview.png)
+![](https://simonhu1993.github.io/mind_map/interview.png)
 
 # mysq高级 #
 [https://simonhu1993.github.io/mind_map/interview2019.html](https://simonhu1993.github.io/mind_map/mysql.html)
 
-![](https://github.com/SimonHu1993/study_mind_map/blob/master/mysql.png)
+![](https://simonhu1993.github.io/mind_map/mysql.png)
 
 

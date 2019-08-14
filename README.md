@@ -16,7 +16,7 @@
 
 [https://simonhu1993.github.io/mind_map/Docker.html](https://simonhu1993.github.io/mind_map/Docker.html)
 
-![docker](https://simonhu1993.github.io/mind_map/Docker.png)
+![](https://simonhu1993.github.io/mind_map/Docker.png)
  
 
 # SpringCloud #

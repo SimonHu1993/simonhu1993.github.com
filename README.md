@@ -31,7 +31,7 @@
 
 ![](https://simonhu1993.github.io/mind_map/interview.png)
 
-# mysq高级 #
+# mysql高级 #
 [https://simonhu1993.github.io/mind_map/interview2019.html](https://simonhu1993.github.io/mind_map/mysql.html)
 
 ![](https://simonhu1993.github.io/mind_map/mysql.png)

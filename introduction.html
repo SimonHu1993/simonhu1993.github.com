@@ -1,0 +1,26 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>简历</title>
+</head>
+<body>
+ <div class="grid-content bg-purple" style="height: 660px;">
+     <iframe  width="100%" height="100%" id="the-canvas" style="border:1px solid black;width:100%;"></iframe>
+</div>
+</body>
+</html>
+
+<script src="./SimonHu _ Home_files/pdfjs/build/pdf.js"></script>
+<script src="./SimonHu _ Home_files/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		pdfView();
+		 //源文件显示
+		function pdfView(){
+                var pdfurl ="https://simonhu1993.github.io/images/胡志杨的简历.pdf";
+                var url ="./SimonHu _ Home_files/pdfjs/web/viewer.html?file="+encodeURIComponent(pdfurl);
+                $('#the-canvas').attr('src',url);
+            }
+	})
+
+           
+</script>

@@ -35,5 +35,5 @@
 [https://simonhu1993.github.io/mind_map/mysql.html](https://simonhu1993.github.io/mind_map/mysql.html)
 
 ![](https://simonhu1993.github.io/mind_map/mysql.png)
-![](https://simonhu1993.github.io/images/xianyu2019.png)
+![](https://simonhu1993.github.io/images/xianyu2019.jpg)
 

@@ -36,7 +36,6 @@ tips:源文件地址
 [https://simonhu1993.github.io/mind_map/mysql.html](https://simonhu1993.github.io/mind_map/mysql.html)
 
 ![](https://simonhu1993.github.io/mind_map/mysql.png)
-![](https://simonhu1993.github.io/images/xianyu2019.jpg)
-![](https://simonhu1993.github.io/images/xianyu2019.jpg)
+![](https://simonhu1993.github.io/images/xianyu2020.jpg)
 
 

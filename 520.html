@@ -76,6 +76,20 @@
             from {opacity: 0;}
             to {opacity: 1;}
         }
+
+        .vert-center{
+            position:absolute;
+            top:87rem;
+            bottom:0;
+            left: 0;
+            margin: auto;
+            right: 0;
+        }
+        .text-center{
+            text-align:center;//实现水平居中
+        }
+
+
     </style>
    <!--<h1>周珊珊</h1> -->
     <div id="container">
@@ -87,9 +101,12 @@
         <h2>亲爱的周珊珊:</h2>
         <p>&ensp;&ensp;&ensp;&ensp;一场顺风车旅行，让你我相遇，或许这就是命运的注定；因为你的微笑和欢语，让这我孤寂的旅程充满欢声笑语；我喜欢你浅浅的笑脸，感觉世界都因此甜蜜；每次和你的相遇都会有着小小的插曲，是紧张导航错地址让你在大雨倾盆下淋成了落汤鸡，是第一次约会好几次转向错误的目的地，但可能这就是因为磁场的感应，让我暂时失去了理性。你的每一个微笑都那么温暖，想每天都听到你的声音，记下你说过的每句话；想见你熟悉的脸，记下你的温暖微笑；每次看到你的笑容，我的心都会跳动。我很幸运能够认识你，并希望能够和你一起走过人生的每一步!</p>
         <p>&ensp;&ensp;&ensp;&ensp;因为我喜欢你，所以我想问你：愿意做我的女朋友吗？</p>
-        <button onclick="alert('么么哒！😘')">是的，我愿意!</button>
-        <button onclick="alert('谢谢你的诚实，我们可以继续做好朋友。😊')">我只想做好朋友。</button>
+           
     </div>
+    <div id="w2" class="vert-center text-center" style="height:64rpx;">
+            <button onclick="alert('么么哒！😘')">是的，我愿意!</button>
+            <button onclick="alert('谢谢你的诚实，我们可以继续做好朋友。😊')">我只想做好朋友。</button>
+        </div> 
 <script>
     var b = document.body;
     var c = document.getElementsByTagName('canvas')[0];

@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Rose</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="background:#000;margin:0;padding:0;">
+    <style type="text/css">
+
+        #container {
+          width: 100%;
+          height: 30vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        #text {
+          font-size: 4rem;
+          font-weight: bold;
+          color: #fff;
+          text-shadow: 0 0 20px #fff;
+        }
+
+      header{
+            background: #ff6b6b;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1{
+            font-size: 40px;
+            margin: 0;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+        h2{
+            font-size: 30px;
+            margin: 0;
+            line-height: 1.2;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .container{
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            opacity: 0; /* 隐藏元素 */
+            animation: fadeIn 2s ease-in-out forwards; /* 使用 CSS 动画 */
+            background: green;
+        }
+        p{
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        button{
+            border: none;
+            background: #ff6b6b;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            opacity: 0; /* 隐藏元素 */
+            animation: fadeIn 2s ease-in-out forwards; /* 使用 CSS 动画 */
+        }
+        button:hover{
+            background: #fff;
+            color: #ff6b6b;
+        }
+        /* 自定义动画 */
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+    </style>
+   <!--<h1>周珊珊</h1> -->
+    <div id="container">
+        <div id="text">周珊珊，520！</div>
+    </div>
+
+<canvas id="c" style="margin:0 auto;display:block"></canvas>
+<div class="container">
+        <h2>亲爱的周珊珊:</h2>
+        <p>&ensp;&ensp;&ensp;&ensp;一场顺风车旅行，让你我相遇，或许这就是命运的注定；因为你的微笑和欢语，让这我孤寂的旅程充满欢声笑语；我喜欢你浅浅的笑脸，感觉世界都因此甜蜜；每次和你的相遇都会有着小小的插曲，是紧张导航错地址让你在大雨倾盆下淋成了落汤鸡，是第一次约会好几次转向错误的目的地，但可能这就是因为磁场的感应，让我暂时失去了理性。你的每一个微笑都那么温暖，想每天都听到你的声音，记下你说过的每句话；想见你熟悉的脸，记下你的温暖微笑；每次看到你的笑容，我的心都会跳动。我很幸运能够认识你，并希望能够和你一起走过人生的每一步!</p>
+        <p>&ensp;&ensp;&ensp;&ensp;因为我喜欢你，所以我想问你：愿意做我的女朋友吗？</p>
+        <button onclick="alert('么么哒！😘')">是的，我愿意!</button>
+        <button onclick="alert('谢谢你的诚实，我们可以继续做好朋友。😌')">我只想做好朋友。</button>
+    </div>
+<script>
+    var b = document.body;
+    var c = document.getElementsByTagName('canvas')[0];
+    var a = c.getContext('2d');
+    document.body.clientWidth;
+</script>
+<script>
+ 
+    with(m=Math)C=cos,S=sin,P=pow,R=random;
+    c.width=c.height=f=600;h=-250;
+    function p(a,b,c){
+        if(c>60)
+            return[S(a*7)*(13+5/(.2+P(b*4,4)))-S(b)*50,b*f+50,625+C(a*7)*(13+5/(.2+P(b*4,4)))+b*400,a*1-b/2,a];
+        A=a*2-1;B=b*2-1;
+        if(A*A+B*B<1){
+            if(c>37)
+            {n=(j=c&1)?6:4;o=.5/(a+.01)+C(b*125)*3-a*300;w=b*h;return[o*C(n)+w*S(n)+j*610-390,o*S(n)-w*C(n)+550-j*350,1180+C(B+A)*99-j*300,.4-a*.1+P(1-B*B,-h*6)*.15-a*b*.4+C(a+b)/5+P(C((o*(a+1)+(B>0?w:-w))/25),30)*.1*(1-B*B),o/1e3+.7-o*w*3e-6]}if(c>32){c=c*1.16-.15;o=a*45-20;w=b*b*h;z=o*S(c)+w*C(c)+620;return[o*C(c)-w*S(c),28+C(B*.5)*99-b*b*b*60-z/2-h,z,(b*b*.3+P((1-(A*A)),7)*.15+.3)*b,b*.7]}o=A*(2-b)*(80-c*2);
+            w=99-C(A)*120-C(b)*(-h-c*4.9)+C(P(1-b,7))*50+c*2;
+            z=o*S(c)+w*C(c)+700;
+            return[o*C(c)-w*S(c),B*99-C(P(b, 7))*50-c/3-z/1.35+450,z,(1-b/1.2)*.9+a*.1, P((1-b),20)/4+.05]}}
+            setInterval('for(i=0;i<1e4;i++)if(s=p(R(),R(),i%46/.74)){z=s[2];x=~~(s[0]*f/z-h);y=~~(s[1]*f/z-h);if(!m[q=y*f+x]|m[q]>z)m[q]=z,a.fillStyle="rgb("+~(s[3]*h)+","+~(s[4]*h)+","+~(s[3]*s[3]*-80)+")",a.fillRect(x,y,1,1)}',0)
+
+
+    const colors = ['#FF0000', '#FF7F00', '#FFFF00', '#00FF00', '#0000FF', '#4B0082', '#EE82EE']; //要用到的颜色数组
+    let colorIndex = 0; //默认开始颜色的下标
+    function changeColor() {
+      document.getElementById('text').style.color = colors[colorIndex];
+      colorIndex++;
+      if (colorIndex >= colors.length) {
+        colorIndex = 0;
+      }
+      setTimeout(changeColor, 500); //每隔500ms换一次颜色
+    }
+    changeColor();
+ 
+</script>
+</body>
+</html>

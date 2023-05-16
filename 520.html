@@ -4,6 +4,8 @@
     <title>【周珊珊】520🍀</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script> 
+    <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js"></script> 
 </head>
 <body style="background:#000;margin:0;padding:0;">
     <style type="text/css">
@@ -84,7 +86,6 @@
 
 
     </style>
-   <!--<h1>周珊珊</h1> -->
     <div id="container">
         <div id="text">周珊珊，520！</div>
     </div>
@@ -97,8 +98,8 @@
            
     </div>
     <div id="w2" class="text-center" style="height:64rpx;">
-            <button onclick="alert('💐那从现在开始周珊珊是胡志杨的女朋友啦，么么哒！😘')">是的，我愿意!</button>
-            <button onclick="alert('🔞答案错误，请选择【是的，我愿意！】⛔️')">我只想做好朋友。</button>
+            <button id="like" onclick="alert('💐那从现在开始周珊珊是胡志杨的女朋友啦，么么哒！😘')">是的，我愿意!</button>
+            <button id="canLike" onclick="alert('🔞答案错误，请选择【是的，我愿意！】⛔️')">我只想做好朋友。</button>
         </div> 
 <script>
     var b = document.body;
@@ -107,6 +108,42 @@
     document.body.clientWidth;
 </script>
 <script>
+    
+    L2Dwidget.init({
+        "model":{
+            "scale":0.5
+        },
+        "display": {
+            "position": "right",
+            "width": 200,
+            "height": 300,
+            "hOffset": 0,
+            "vOffset": 0
+        },
+        "mobile": {
+            "show": true,
+            "scale": 0.5
+        },
+        "react": {
+            "opacityDefault": 0.7,
+            "opacityOnHover": 0.2
+        },
+       "dialog": {
+            // 开启对话框
+            "enable": true,
+            "script": {
+              // 每空闲 10 秒钟，显示一条一言
+              'every idle 10s': '$hitokoto$',
+              // 当触摸到星星图案
+              'click #like': '谢谢你喜欢我的主人~',
+              'click #canLike':'主人还在学习中，你还是再考虑考虑吧~',
+              // 当触摸到角色身体
+              'tap body': '哎呀！别碰我！',
+              // 当触摸到角色头部
+              'tap face': '星星在天上而你在我心里 (*/ω＼*)'
+            }
+          }
+    });
  
     with(m=Math)C=cos,S=sin,P=pow,R=random;
     c.width=c.height=f=600;h=-250;
@@ -120,7 +157,7 @@
             w=99-C(A)*120-C(b)*(-h-c*4.9)+C(P(1-b,7))*50+c*2;
             z=o*S(c)+w*C(c)+700;
             return[o*C(c)-w*S(c),B*99-C(P(b, 7))*50-c/3-z/1.35+450,z,(1-b/1.2)*.9+a*.1, P((1-b),20)/4+.05]}}
-            setInterval('for(i=0;i<1e4;i++)if(s=p(R(),R(),i%46/.74)){z=s[2];x=~~(s[0]*f/z-h);y=~~(s[1]*f/z-h);if(!m[q=y*f+x]|m[q]>z)m[q]=z,a.fillStyle="rgb("+~(s[3]*h)+","+~(s[4]*h)+","+~(s[3]*s[3]*-80)+")",a.fillRect(x,y,1,1)}',0)
+            /**setInterval('for(i=0;i<1e4;i++)if(s=p(R(),R(),i%46/.74)){z=s[2];x=~~(s[0]*f/z-h);y=~~(s[1]*f/z-h);if(!m[q=y*f+x]|m[q]>z)m[q]=z,a.fillStyle="rgb("+~(s[3]*h)+","+~(s[4]*h)+","+~(s[3]*s[3]*-80)+")",a.fillRect(x,y,1,1)}',0) */
 
 
     const colors = ['#FF0000', '#FF7F00', '#FFFF00', '#00FF00', '#0000FF', '#4B0082', '#EE82EE']; //要用到的颜色数组
